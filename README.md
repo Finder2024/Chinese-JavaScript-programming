@@ -2,6 +2,7 @@
 ## 代码在不断更新,给个star吧
 此项目是随手写的，使用函数方法来进行中文javascript编程 <br>
 ### 使用方法
+需要先安装axios模块
 ```javascript
   var chinese = require("发行版文件路径");
   
