@@ -49,3 +49,11 @@ async function 发起网络请求(methods, urls, headerses,datas) {
         throw error; // 抛出错误
     }
 }
+function 如果(条件) {
+    let result = { value: 条件 };
+    result.否则 = function(条件2) { result.value = result.value || 条件2; return this; }
+    result.最终 = function() {
+      return result;
+    };
+    return result;
+  }
