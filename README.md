@@ -2,8 +2,7 @@
 ## 代码在不断更新,给个star吧
 此项目是随手写的，使用函数方法来进行中文javascript编程 <br>
 ### 使用方法
-``
-  var chinese = require("发行版文件路径")
+`` var chinese = require("发行版文件路径")
   
   const 结果 = chinese.如果(3 > 4)
   .否则(1 !=1 )
@@ -19,5 +18,4 @@
     控制台打印(error);
   });
   
-  控制台打印("one")
-  ``
+  控制台打印("one")``
