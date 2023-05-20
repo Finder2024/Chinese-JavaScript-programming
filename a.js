@@ -1,24 +1,11 @@
 const { default: axios } = require("axios");
-const e = require("express");
-
 function 控制台打印(log) {
     console.log(log)
 }
 function 定义变量(name, value) {
     // 定义一个变量
     global[name] = value;
-  }
-  // 使用示例
-  function 发起网络请求(methods, urls, headerses,datas){
-    return sendRequest(methods, urls, headerses,datas).then(result => {
-        console.log(result); // 打印返回结果
-        datas = JSON.stringify(result);
-        return datas
-      }).catch(error => {
-        console.error(error); // 输出错误信息
-        return error
-      });
-  }
+}
   function sendRequest(methods, urls, headerses,datas) {
     const method = methods; // 请求方法
     const url = urls // 请求URL
@@ -57,3 +44,9 @@ function 如果(条件) {
     };
     return result;
   }
+  module.exports = {
+    控制台打印,
+    定义变量,
+    发起网络请求,
+    如果
+   }
