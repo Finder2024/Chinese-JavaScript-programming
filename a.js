@@ -44,9 +44,21 @@ function 如果(条件) {
     };
     return result;
   }
+  const fs = require('fs');
+
+  function 写入文件(filePath, data) {
+  fs.writeFile(filePath, data, (err) => {
+    if (err) {
+      console.error('写入文件时出现错误：', err);
+      return;
+    }
+    console.log('文件写入成功！');
+  });
+}
   module.exports = {
     控制台打印,
     定义变量,
     发起网络请求,
     如果
    }
+  
