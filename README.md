@@ -21,3 +21,7 @@
   
   控制台打印("one");
   ``
+    ```python
+    #!/usr/bin/env python3
+    print("Hello, World!");
+    ```
