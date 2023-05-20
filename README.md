@@ -2,7 +2,7 @@
 ## 代码在不断更新,给个star吧
 此项目是随手写的，使用函数方法来进行中文javascript编程 <br>
 ### 使用方法
-`` 
+```javascript
   var chinese = require("发行版文件路径");
   
   const 结果 = chinese.如果(3 > 4)
@@ -20,7 +20,7 @@
   });
   
   控制台打印("one");
-  ``
+  ```
     ```python
     #!/usr/bin/env python3
     print("Hello, World!");
